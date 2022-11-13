@@ -1,0 +1,246 @@
+
+.html{
+    scroll-behavior: smooth;
+}
+
+.nav_bar{
+    text-align: right;
+    background-color: grey;
+    padding: 10px;
+}
+
+.text_nav{
+    color: white;
+    font-weight: bold;
+    margin: 50px;
+    text-decoration: none; /*no underline*/
+    
+}
+
+.inici{
+   /* background-color: white;*/
+    margin-top: 20px; /*el margin separa elements*/
+}
+
+.informacio_principal{
+    height: 500px;
+    width: auto;
+    /*background-color: white;*/
+    padding-top: 50px;
+    background-image: url(imatges/background.png);
+    background-size: contain;
+}
+
+.foto_perfil_contenidor{
+    /*background-color: white;*/
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.foto_perfil{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.nom_i_cognom_text{
+    margin-top: 50px;
+
+}
+
+.titol, .subtitol{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.xarxes_socials{
+    /*justify i display centren els elements dins el div*/
+    /*background-color: white;*/
+    margin-top: 115px;
+    justify-content: center;
+    display: flex; 
+}
+
+.cercle{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(119, 119, 119);
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;    
+}
+
+.cercle_image{ /*falta centrar dins cercle*/
+    width: 20px; 
+    height: 20px;
+}
+
+.about_main_contenidor{
+    background-color: white;
+
+
+}
+
+.about_main{
+
+    display: flex; /*sobre mi y informacion basica de lado*/
+    justify-content: center; /*els divs estan centrats a la pantalla*/
+    /*text-align: center; /*el text queda centrar dins cada div*/
+    
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+
+   
+}
+
+.about_main, .experienceCard, img{
+    -webkit-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.4);
+}
+
+.about, .basic_info{
+    border-radius: 8px; /*radi del div*/
+    margin: 0px;
+    padding: 0px;
+}
+
+.section_title_container{
+    text-align: center;
+}
+
+.section_title{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 40px;
+}
+
+a, input, label, h1, h2, .section_title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.experiencia{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.experiencia_container{
+    display:flex;
+    justify-content: center;    
+    height: 360px;
+}
+
+.experienceCard{
+    height: 350px;
+    width: 250px;
+    border-radius: 8px;
+    background-color: darkgrey;
+    margin-left: 40px;
+    margin-right: 40px;
+    overflow: visible;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.experienceCard, .cercle, .text_nav{
+    transition: transform .1s;
+}
+
+.experienceCard:hover, .cercle:hover, .text_nav:hover{
+    /*height: 360px;
+    width: 253px;*/
+    transform: scale(1.05);
+}
+
+.experience_foto_container{
+    width: auto;
+    height: 50%;
+    background-color: white;
+    border-top-left-radius: 8px; border-top-right-radius: 8px;
+    display:flex;
+    justify-content: center; 
+}
+
+.experience_text_container{
+    width: auto;
+    height: 50%;
+    border-top: 175px;
+    background-color: darkgrey;
+    border-radius:8px;
+    
+}
+
+.foto_container{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    /*background-color: black;*/
+    background-image: url(imatges/google.png);
+    background-size: contain;
+    
+    margin:auto;
+}
+
+.experience_titol_container{
+    font-size: 28px;
+    font-weight: bold;
+    color: black;  
+    border-top: 100px;
+    text-align: center;
+    padding-top: 50px;
+}
+.experience_subtext_container{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+.requiredFields, .optionalText{
+    color: grey;
+    font-style: italic;
+  }
