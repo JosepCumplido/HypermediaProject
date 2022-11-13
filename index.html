@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="main" id="#pag_inici">
+      <!--INICI-->
+      <div class="inici">
+        <header>
+          <div class="nav_bar">
+            <nav class="navegacion_principal">
+              <a class="text_nav" href="#pag_inici">ABOUT ME</a>
+              <a class="text_nav" href="#pag_experiencia">EXPERIENCE</a>
+              <a class="text_nav" href="#pag_contactar">CONTACT ME</a>
+            </nav>
+          </div>
+        </header>
+
+        <div class ="informacio_principal">
+          <div class="foto_perfil_contenidor">
+            <div class="foto_perfil"> </div>
+          </div>
+          <div class="nom_i_cognom_text">
+            <div><h1 class="titol">JOSEP CUMPLIDO</h1></div>
+            <div><h2 class="subtitol">ENGINYER INFORMÀTIC</h2></div>  
+          </div>
+
+           <!--xarxes socials-->
+          <div class="xarxes_socials">
+            <div class="cercle">
+              <img class="cercle_image" src="imatges/github.svg" alt="github" ; />
+            </div>
+            <div class="cercle">
+              <img
+                class="cercle_image"
+                src="imatges/stack-overflow.svg"
+                alt="stack-overflow"
+                ;
+              />
+            </div>
+            <div class="cercle">
+              <img class="cercle_image"
+                src="imatges/discord.svg"
+                alt="discord"
+                ;
+              />
+            </div>
+            <div class="cercle">
+              <img
+                class="cercle_image"
+                src="imatges/twitter.svg"
+                alt="twitter"
+                ;
+              />
+            </div>
+          </div>
+        </div>
+        
+       
+        <div class="about_main_contenidor"> 
+          <div class="about_main">
+            <div class="about">
+              <div class="section_title_container">
+                <a class="section_title">About me</a>
+              </div>
+             
+              <p>I love coding and techonolgy.</p>
+            </div>
+            <div class="basic_info">
+              <div class="section_title_container">
+                <a class="section_title">Basic information</a>
+              </div>
+              
+              <ul> 
+                <li><a>AGE: 20 years old</a></li>
+                <li><a>LANGUAGES: Catalan, Spanish, English, French and German</a></li>
+                <li><a>CODING EXP: C++, JAVA, SQL, HTML, CSS and javascript</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!--FI INICI-->
+
+      <!--EXPERIENCIA-->
+      
+      <div class="experiencia">
+        <div class="section_title_container">
+          <div class="section_title">Experience</div>
+        </div>
+       
+        <div class="experiencia_container" id="#pag_experiencia">
+          
+          <div class="experienceCard">
+            <div class="experience_foto_container">
+              <div class="foto_container">
+              </div>         
+            </div>
+            <div class="experience_text_container">
+              <div class="experience_titol_container"> 
+                <a class="experience_titol">Experience 1</br></a>
+              </div>
+            
+              <div class="experience_subtext_container"> 
+                <a class="experience_text">Experience 1 text</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="experienceCard">
+            <div class="experience_foto_container">
+              <div class="foto_container">
+              </div>         
+            </div>
+            <div class="experience_text_container">
+              <div class="experience_titol_container"> 
+                <a class="experience_titol">Experience 1</br></a>
+              </div>
+            
+              <div class="experience_subtext_container"> 
+                <a class="experience_text">Experience 1 text</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="experienceCard">
+            <div class="experience_foto_container">
+              <div class="foto_container">
+              </div>         
+            </div>
+            <div class="experience_text_container">
+              <div class="experience_titol_container"> 
+                <a class="experience_titol">Experience 1</br></a>
+              </div>
+            
+              <div class="experience_subtext_container"> 
+                <a class="experience_text">Experience 1 text</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!--FI EXPERIENCIA-->
+
+      <!--CONTACTAR-->
+      <div class="contactar" id="#pag_contactar">
+        <div class="section_title_container">
+          <div class="section_title">Contact me</div>
+        </div>
+        
+        <div class="container">
+          <form action="action_page.php">
+        
+            <label for="fname">First Name *</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name *</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="lmail">Email *</label>
+            <input type="text" id="lmail" name="mail" placeholder="Your email..">
+           
+            <label for="subject">Subject <a class="optionalText">(optional)</a></label>
+            <textarea id="subject" name="subject" placeholder="Tell me more about you.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+            </br></br>
+            <a class="requiredFields">* required fields</a>
+        
+          </form>
+        </div>
+      </div>
+      <!--FI CONTACTAR-->
+    </div>
+  </body>
+</html>
